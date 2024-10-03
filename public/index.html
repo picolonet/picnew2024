@@ -81,16 +81,18 @@
             <h2 class="text-center mb-5" style="color: #d9e0f5; font-weight: 600;">Key Product Areas</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
-                    <h3 style="color: #9cc5f7; font-size: 1.2em;">Feature 1</h3>
-                    <p style="color: #629dee; font-weight: 500;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 style="color: #9cc5f7; font-size: 1.2em;">CodeGen</h3>
+                    <p style="color: #629dee; font-weight: 500;">Feature-driven implementation with strong code security primitives. Our GenAI-driven system is capable of generating code for new features while
+                        ensuring strong cybersecurity primitives are adhered to.
+                    </p>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <h3 style="color: #9cc5f7; font-size: 1.2em;">Feature 2</h3>
-                    <p style="color: #629dee; font-weight: 500;">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h3 style="color: #9cc5f7; font-size: 1.2em;">CodeTest</h3>
+                    <p style="color: #629dee; font-weight: 500;">White-box testing using GenAI and Fuzzing techniques. Our system can test existing code snippets or modules for CVEs.</p>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <h3 style="color: #9cc5f7; font-size: 1.2em;">Feature 3</h3>
-                    <p style="color: #629dee; font-weight: 500;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <h3 style="color: #9cc5f7; font-size: 1.2em;">CodeFix</h3>
+                    <p style="color: #629dee; font-weight: 500;">Suggest secure fixes for vulnerabilities. When presented with a vulnerability, the system can suggest fixes, test them and even generate patches.</p>
                 </div>
             </div>
         </div>
@@ -129,6 +131,36 @@
         </div>
     </section>
 
+    <!-- Team Section -->
+    <section id="team" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: #05268c; font-weight: 600;">Our Team</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p class="text-center" style="color: #4d6ed4; font-size: 1.1em;">
+                        At Picolo Labs, we're proud to have a diverse team of cybersecurity experts, AI specialists, and software engineers. 
+                        Our professionals bring years of experience from various sectors including finance and government, ensuring a well-rounded approach
+                        to tackling the most complex security challenges. United by our passion for innovation and commitment to digital safety, we work tirelessly
+                        to stay ahead of emerging threats and deliver cutting-edge solutions to our clients.
+                        The team is led by Arunesh Mishra, a cybersecurity expert with over 20 years of experience in the field.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Add 'Team' to the navigation bar
+        document.addEventListener('DOMContentLoaded', function() {
+            const navBar = document.querySelector('.navbar-nav');
+            if (navBar) {
+                const teamLink = document.createElement('li');
+                teamLink.className = 'nav-item';
+                teamLink.innerHTML = '<a class="nav-link" href="#team">Team</a>';
+                navBar.appendChild(teamLink);
+            }
+        });
+    </script>
     <!-- Contact Section -->
     <section id="contact" class="section">
         <div class="container">
